@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="utf-8">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<header>
+<div>
+    <nav>
+    <ul class="cont" id="contents">
+        <li><a id="oneSection"><a href="#about">About me</a></li>
+        <li><a id="twoSection"><a href="#portfolio">Portfolio</a></li>
+        <li><a id="thirdSection"><a href="#contacts">Contacts</a></li>
+        <a href="javascript:void(0);" class="hamburger" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+    </ul>
+    </nav>
+    <h1 id="my_name"> Aleksander, Front-end developer </h1></header>
+</div>
+<div><img class="fon" src="images/bg.jpg"></div>
+<div>
+    <section id="about">
+        <h2 id="about_me">About me</h2>
+        <img id="pictureOne" src="images/sneg.jpg" alt="Face female">
+        <p id="text"> Hi, i'm Aleksander</p>
+        <p id="textTwo">For me, programming is not just job, it's a hobby.</p>
+        <p id="textSkills">Skills: HTML, CSS, JS, React</p>
+    </section>
+    <section id="portfolio">
+        <h2 style="text-align:center">Portfolio</h2>
+        <div class="ach">
+            <div id="pro1"><img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg" alt="project1">
+                <p id="flash"><button class="open-window">Flashcards</button></p>
+            </div>
+
+            <!--Project 1-->
+            <div class="window popup">
+                <div>
+                    <h1>Flashcards</h1>
+                    <p>You can see the project at the following link
+                        <a href="https://flashcard.com" title="flashcard">flashcards</a> </p><br>
+                    <p>I did this project when I was studying the frontend on Hyperskill. I created<br>
+                        a web page with flip-down flash cards, learned some HTML basics and<br>
+                        learned that CSS can easily make a beautiful design.</p>
+                    <button class="close-window">Close</button>
+                </div>
+            </div>
+            <!--Project 1 ends here-->
+
+            <div id="pro1"><img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg" alt="project1">
+                <p id="flash"><button class="open-window1">Flashcards</button></p>
+            </div>
+
+            <!--Project 2-->
+            <div class="window1 popup">
+                <div>
+                    <h1>Flashcards</h1>
+                    <p>You can see the project at the following link
+                        <a href="https://flashcard.com" title="flashcard">flashcards</a> </p><br>
+                    <p>I did this project when I was studying the frontend on Hyperskill. I created<br>
+                        a web page with flip-down flash cards, learned some HTML basics and<br>
+                        learned that CSS can easily make a beautiful design.</p>
+                    <button class="close-window1">Close</button>
+                </div>
+            </div>
+            <!--Project 1 ends here-->
+
+        </div>
+</div>
+</section>
+    <section id="contacts">
+        <h2 id="myContacts">Contacts</h2>
+        <p>You can contact me at email:<a href="mailto:sas98017737@mail.ru">sas98017737@mail.ru</a><br> or phone number - <a href="tel:+000000000">000000000</a></br></p>
+        <div id="pictureContacts">
+            <img id="gitHub" src="images/github.svg" alt="GitHub">
+            <img id="facebook" src="images/facebook.svg" alt="facebook">
+            <img id="twitter" src="images/twitter.svg" alt="Twitter">
+            <img id="insta" src="images/instagram.svg" alt="Instagram"><a href="https://yandex.ru/"></a>
+        </div>
+    </section>
+</div>
+<footer>
+    Aleks 2022 year
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
